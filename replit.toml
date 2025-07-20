@@ -1,0 +1,13 @@
+[run]
+entrypoint = "npm run dev"
+
+[nix]
+channel = "stable-23.11"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[workflows]]
+name = "Start application"
+run = "npm run dev"

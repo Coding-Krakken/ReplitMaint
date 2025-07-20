@@ -1,0 +1,2092 @@
+<testsuites id="" name="" tests="130" failures="125" skipped="5" errors="0" time="103.363719">
+<testsuite name="basic.e2e.test.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="chromium" tests="4" failures="3" skipped="1" time="0.05" errors="0">
+<testcase name="Basic E2E Tests › should load the homepage" classname="basic.e2e.test.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Basic E2E Tests › should verify test framework" classname="basic.e2e.test.ts" time="0.026">
+<failure message="basic.e2e.test.ts:16:3 should verify test framework" type="FAILURE">
+<![CDATA[  [chromium] › basic.e2e.test.ts:16:3 › Basic E2E Tests › should verify test framework ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on mobile viewport" classname="basic.e2e.test.ts" time="0.013">
+<failure message="basic.e2e.test.ts:24:3 should work on mobile viewport" type="FAILURE">
+<![CDATA[  [chromium] › basic.e2e.test.ts:24:3 › Responsive Design Tests › should work on mobile viewport ───
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on desktop viewport" classname="basic.e2e.test.ts" time="0.011">
+<failure message="basic.e2e.test.ts:33:3 should work on desktop viewport" type="FAILURE">
+<![CDATA[  [chromium] › basic.e2e.test.ts:33:3 › Responsive Design Tests › should work on desktop viewport ──
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-login.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="chromium" tests="1" failures="1" skipped="0" time="0.046" errors="0">
+<testcase name="debug login error handling" classname="debug-login.spec.ts" time="0.046">
+<failure message="debug-login.spec.ts:3:1 debug login error handling" type="FAILURE">
+<![CDATA[  [chromium] › debug-login.spec.ts:3:1 › debug login error handling ────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-work-orders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="chromium" tests="1" failures="1" skipped="0" time="0.021" errors="0">
+<testcase name="debug work order navigation" classname="debug-work-orders.spec.ts" time="0.021">
+<failure message="debug-work-orders.spec.ts:4:1 debug work order navigation" type="FAILURE">
+<![CDATA[  [chromium] › debug-work-orders.spec.ts:4:1 › debug work order navigation ─────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-workorders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="chromium" tests="1" failures="1" skipped="0" time="0.014" errors="0">
+<testcase name="debug work order data" classname="debug-workorders.spec.ts" time="0.014">
+<failure message="debug-workorders.spec.ts:3:1 debug work order data" type="FAILURE">
+<![CDATA[  [chromium] › debug-workorders.spec.ts:3:1 › debug work order data ────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="main-flows.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="chromium" tests="19" failures="19" skipped="0" time="0.261" errors="0">
+<testcase name="Authentication Flow › user can login and logout" classname="main-flows.spec.ts" time="0.013">
+<failure message="main-flows.spec.ts:30:3 user can login and logout" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:30:3 › Authentication Flow › user can login and logout ───────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Authentication Flow › shows error for invalid credentials" classname="main-flows.spec.ts" time="0.017">
+<failure message="main-flows.spec.ts:53:3 shows error for invalid credentials" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:53:3 › Authentication Flow › shows error for invalid credentials ─
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › technician can complete work order flow @smoke" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:77:3 technician can complete work order flow @smoke" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:77:3 › Work Order Management › technician can complete work order flow @smoke 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can create new work order" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:112:3 can create new work order" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:112:3 › Work Order Management › can create new work order ────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can filter work orders" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:135:3 can filter work orders" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:135:3 › Work Order Management › can filter work orders ───────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can search work orders" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:153:3 can search work orders" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:153:3 › Work Order Management › can search work orders ───────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can view equipment list" classname="main-flows.spec.ts" time="0.012">
+<failure message="main-flows.spec.ts:175:3 can view equipment list" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:175:3 › Equipment Management › can view equipment list ───────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can create new equipment" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:184:3 can create new equipment" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:184:3 › Equipment Management › can create new equipment ──────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can scan QR code for equipment" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:204:3 can scan QR code for equipment" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:204:3 › Equipment Management › can scan QR code for equipment ────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › displays dashboard metrics" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:230:3 displays dashboard metrics" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:230:3 › Dashboard and Analytics › displays dashboard metrics ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › can filter dashboard by date range" classname="main-flows.spec.ts" time="0.015">
+<failure message="main-flows.spec.ts:242:3 can filter dashboard by date range" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:242:3 › Dashboard and Analytics › can filter dashboard by date range 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › mobile navigation works correctly" classname="main-flows.spec.ts" time="0.041">
+<failure message="main-flows.spec.ts:261:3 mobile navigation works correctly" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:261:3 › Mobile Responsiveness › mobile navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › work order cards are touch-friendly" classname="main-flows.spec.ts" time="0.012">
+<failure message="main-flows.spec.ts:280:3 work order cards are touch-friendly" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:280:3 › Mobile Responsiveness › work order cards are touch-friendly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › shows offline indicator when network is unavailable" classname="main-flows.spec.ts" time="0.021">
+<failure message="main-flows.spec.ts:298:3 shows offline indicator when network is unavailable" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:298:3 › Offline Functionality › shows offline indicator when network is unavailable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › can complete work orders offline" classname="main-flows.spec.ts" time="0.011">
+<failure message="main-flows.spec.ts:312:3 can complete work orders offline" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:312:3 › Offline Functionality › can complete work orders offline ─
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › supports keyboard navigation" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:341:3 supports keyboard navigation" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:341:3 › Accessibility › supports keyboard navigation ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › has proper focus indicators" classname="main-flows.spec.ts" time="0.025">
+<failure message="main-flows.spec.ts:355:3 has proper focus indicators" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:355:3 › Accessibility › has proper focus indicators ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › dashboard loads within acceptable time" classname="main-flows.spec.ts" time="0.013">
+<failure message="main-flows.spec.ts:369:3 dashboard loads within acceptable time" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:369:3 › Performance › dashboard loads within acceptable time ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › work order list handles large datasets" classname="main-flows.spec.ts" time="0.02">
+<failure message="main-flows.spec.ts:383:3 work order list handles large datasets" type="FAILURE">
+<![CDATA[  [chromium] › main-flows.spec.ts:383:3 › Performance › work order list handles large datasets ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="basic.e2e.test.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="firefox" tests="4" failures="3" skipped="1" time="0.082" errors="0">
+<testcase name="Basic E2E Tests › should load the homepage" classname="basic.e2e.test.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Basic E2E Tests › should verify test framework" classname="basic.e2e.test.ts" time="0.026">
+<failure message="basic.e2e.test.ts:16:3 should verify test framework" type="FAILURE">
+<![CDATA[  [firefox] › basic.e2e.test.ts:16:3 › Basic E2E Tests › should verify test framework ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on mobile viewport" classname="basic.e2e.test.ts" time="0.016">
+<failure message="basic.e2e.test.ts:24:3 should work on mobile viewport" type="FAILURE">
+<![CDATA[  [firefox] › basic.e2e.test.ts:24:3 › Responsive Design Tests › should work on mobile viewport ────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on desktop viewport" classname="basic.e2e.test.ts" time="0.04">
+<failure message="basic.e2e.test.ts:33:3 should work on desktop viewport" type="FAILURE">
+<![CDATA[  [firefox] › basic.e2e.test.ts:33:3 › Responsive Design Tests › should work on desktop viewport ───
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-login.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="firefox" tests="1" failures="1" skipped="0" time="0.014" errors="0">
+<testcase name="debug login error handling" classname="debug-login.spec.ts" time="0.014">
+<failure message="debug-login.spec.ts:3:1 debug login error handling" type="FAILURE">
+<![CDATA[  [firefox] › debug-login.spec.ts:3:1 › debug login error handling ─────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-work-orders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="firefox" tests="1" failures="1" skipped="0" time="0.016" errors="0">
+<testcase name="debug work order navigation" classname="debug-work-orders.spec.ts" time="0.016">
+<failure message="debug-work-orders.spec.ts:4:1 debug work order navigation" type="FAILURE">
+<![CDATA[  [firefox] › debug-work-orders.spec.ts:4:1 › debug work order navigation ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-workorders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="firefox" tests="1" failures="1" skipped="0" time="0.015" errors="0">
+<testcase name="debug work order data" classname="debug-workorders.spec.ts" time="0.015">
+<failure message="debug-workorders.spec.ts:3:1 debug work order data" type="FAILURE">
+<![CDATA[  [firefox] › debug-workorders.spec.ts:3:1 › debug work order data ─────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="main-flows.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="firefox" tests="19" failures="19" skipped="0" time="0.185" errors="0">
+<testcase name="Authentication Flow › user can login and logout" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:30:3 user can login and logout" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:30:3 › Authentication Flow › user can login and logout ────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Authentication Flow › shows error for invalid credentials" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:53:3 shows error for invalid credentials" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:53:3 › Authentication Flow › shows error for invalid credentials ──
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › technician can complete work order flow @smoke" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:77:3 technician can complete work order flow @smoke" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:77:3 › Work Order Management › technician can complete work order flow @smoke 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can create new work order" classname="main-flows.spec.ts" time="0.029">
+<failure message="main-flows.spec.ts:112:3 can create new work order" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:112:3 › Work Order Management › can create new work order ─────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can filter work orders" classname="main-flows.spec.ts" time="0.015">
+<failure message="main-flows.spec.ts:135:3 can filter work orders" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:135:3 › Work Order Management › can filter work orders ────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can search work orders" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:153:3 can search work orders" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:153:3 › Work Order Management › can search work orders ────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can view equipment list" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:175:3 can view equipment list" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:175:3 › Equipment Management › can view equipment list ────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can create new equipment" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:184:3 can create new equipment" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:184:3 › Equipment Management › can create new equipment ───────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can scan QR code for equipment" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:204:3 can scan QR code for equipment" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:204:3 › Equipment Management › can scan QR code for equipment ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › displays dashboard metrics" classname="main-flows.spec.ts" time="0.014">
+<failure message="main-flows.spec.ts:230:3 displays dashboard metrics" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:230:3 › Dashboard and Analytics › displays dashboard metrics ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › can filter dashboard by date range" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:242:3 can filter dashboard by date range" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:242:3 › Dashboard and Analytics › can filter dashboard by date range 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › mobile navigation works correctly" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:261:3 mobile navigation works correctly" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:261:3 › Mobile Responsiveness › mobile navigation works correctly ─
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › work order cards are touch-friendly" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:280:3 work order cards are touch-friendly" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:280:3 › Mobile Responsiveness › work order cards are touch-friendly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › shows offline indicator when network is unavailable" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:298:3 shows offline indicator when network is unavailable" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:298:3 › Offline Functionality › shows offline indicator when network is unavailable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › can complete work orders offline" classname="main-flows.spec.ts" time="0.011">
+<failure message="main-flows.spec.ts:312:3 can complete work orders offline" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:312:3 › Offline Functionality › can complete work orders offline ──
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › supports keyboard navigation" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:341:3 supports keyboard navigation" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:341:3 › Accessibility › supports keyboard navigation ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › has proper focus indicators" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:355:3 has proper focus indicators" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:355:3 › Accessibility › has proper focus indicators ───────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › dashboard loads within acceptable time" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:369:3 dashboard loads within acceptable time" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:369:3 › Performance › dashboard loads within acceptable time ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › work order list handles large datasets" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:383:3 work order list handles large datasets" type="FAILURE">
+<![CDATA[  [firefox] › main-flows.spec.ts:383:3 › Performance › work order list handles large datasets ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/firefox-1489/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="basic.e2e.test.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="webkit" tests="4" failures="3" skipped="1" time="0.042" errors="0">
+<testcase name="Basic E2E Tests › should load the homepage" classname="basic.e2e.test.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Basic E2E Tests › should verify test framework" classname="basic.e2e.test.ts" time="0.012">
+<failure message="basic.e2e.test.ts:16:3 should verify test framework" type="FAILURE">
+<![CDATA[  [webkit] › basic.e2e.test.ts:16:3 › Basic E2E Tests › should verify test framework ───────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on mobile viewport" classname="basic.e2e.test.ts" time="0.02">
+<failure message="basic.e2e.test.ts:24:3 should work on mobile viewport" type="FAILURE">
+<![CDATA[  [webkit] › basic.e2e.test.ts:24:3 › Responsive Design Tests › should work on mobile viewport ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on desktop viewport" classname="basic.e2e.test.ts" time="0.01">
+<failure message="basic.e2e.test.ts:33:3 should work on desktop viewport" type="FAILURE">
+<![CDATA[  [webkit] › basic.e2e.test.ts:33:3 › Responsive Design Tests › should work on desktop viewport ────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-login.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="webkit" tests="1" failures="1" skipped="0" time="0.009" errors="0">
+<testcase name="debug login error handling" classname="debug-login.spec.ts" time="0.009">
+<failure message="debug-login.spec.ts:3:1 debug login error handling" type="FAILURE">
+<![CDATA[  [webkit] › debug-login.spec.ts:3:1 › debug login error handling ──────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-work-orders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="webkit" tests="1" failures="1" skipped="0" time="0.012" errors="0">
+<testcase name="debug work order navigation" classname="debug-work-orders.spec.ts" time="0.012">
+<failure message="debug-work-orders.spec.ts:4:1 debug work order navigation" type="FAILURE">
+<![CDATA[  [webkit] › debug-work-orders.spec.ts:4:1 › debug work order navigation ───────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-workorders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="webkit" tests="1" failures="1" skipped="0" time="0.009" errors="0">
+<testcase name="debug work order data" classname="debug-workorders.spec.ts" time="0.009">
+<failure message="debug-workorders.spec.ts:3:1 debug work order data" type="FAILURE">
+<![CDATA[  [webkit] › debug-workorders.spec.ts:3:1 › debug work order data ──────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="main-flows.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="webkit" tests="19" failures="19" skipped="0" time="0.199" errors="0">
+<testcase name="Authentication Flow › user can login and logout" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:30:3 user can login and logout" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:30:3 › Authentication Flow › user can login and logout ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Authentication Flow › shows error for invalid credentials" classname="main-flows.spec.ts" time="0.013">
+<failure message="main-flows.spec.ts:53:3 shows error for invalid credentials" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:53:3 › Authentication Flow › shows error for invalid credentials ───
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › technician can complete work order flow @smoke" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:77:3 technician can complete work order flow @smoke" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:77:3 › Work Order Management › technician can complete work order flow @smoke 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can create new work order" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:112:3 can create new work order" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:112:3 › Work Order Management › can create new work order ──────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can filter work orders" classname="main-flows.spec.ts" time="0.018">
+<failure message="main-flows.spec.ts:135:3 can filter work orders" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:135:3 › Work Order Management › can filter work orders ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can search work orders" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:153:3 can search work orders" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:153:3 › Work Order Management › can search work orders ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can view equipment list" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:175:3 can view equipment list" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:175:3 › Equipment Management › can view equipment list ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can create new equipment" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:184:3 can create new equipment" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:184:3 › Equipment Management › can create new equipment ────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can scan QR code for equipment" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:204:3 can scan QR code for equipment" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:204:3 › Equipment Management › can scan QR code for equipment ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › displays dashboard metrics" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:230:3 displays dashboard metrics" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:230:3 › Dashboard and Analytics › displays dashboard metrics ───────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › can filter dashboard by date range" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:242:3 can filter dashboard by date range" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:242:3 › Dashboard and Analytics › can filter dashboard by date range 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › mobile navigation works correctly" classname="main-flows.spec.ts" time="0.015">
+<failure message="main-flows.spec.ts:261:3 mobile navigation works correctly" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:261:3 › Mobile Responsiveness › mobile navigation works correctly ──
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › work order cards are touch-friendly" classname="main-flows.spec.ts" time="0.015">
+<failure message="main-flows.spec.ts:280:3 work order cards are touch-friendly" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:280:3 › Mobile Responsiveness › work order cards are touch-friendly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › shows offline indicator when network is unavailable" classname="main-flows.spec.ts" time="0.019">
+<failure message="main-flows.spec.ts:298:3 shows offline indicator when network is unavailable" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:298:3 › Offline Functionality › shows offline indicator when network is unavailable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › can complete work orders offline" classname="main-flows.spec.ts" time="0.013">
+<failure message="main-flows.spec.ts:312:3 can complete work orders offline" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:312:3 › Offline Functionality › can complete work orders offline ───
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › supports keyboard navigation" classname="main-flows.spec.ts" time="0.013">
+<failure message="main-flows.spec.ts:341:3 supports keyboard navigation" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:341:3 › Accessibility › supports keyboard navigation ───────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › has proper focus indicators" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:355:3 has proper focus indicators" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:355:3 › Accessibility › has proper focus indicators ────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › dashboard loads within acceptable time" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:369:3 dashboard loads within acceptable time" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:369:3 › Performance › dashboard loads within acceptable time ───────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › work order list handles large datasets" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:383:3 work order list handles large datasets" type="FAILURE">
+<![CDATA[  [webkit] › main-flows.spec.ts:383:3 › Performance › work order list handles large datasets ───────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="basic.e2e.test.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Chrome" tests="4" failures="3" skipped="1" time="0.025" errors="0">
+<testcase name="Basic E2E Tests › should load the homepage" classname="basic.e2e.test.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Basic E2E Tests › should verify test framework" classname="basic.e2e.test.ts" time="0.007">
+<failure message="basic.e2e.test.ts:16:3 should verify test framework" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › basic.e2e.test.ts:16:3 › Basic E2E Tests › should verify test framework ────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on mobile viewport" classname="basic.e2e.test.ts" time="0.007">
+<failure message="basic.e2e.test.ts:24:3 should work on mobile viewport" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › basic.e2e.test.ts:24:3 › Responsive Design Tests › should work on mobile viewport 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on desktop viewport" classname="basic.e2e.test.ts" time="0.011">
+<failure message="basic.e2e.test.ts:33:3 should work on desktop viewport" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › basic.e2e.test.ts:33:3 › Responsive Design Tests › should work on desktop viewport 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-login.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Chrome" tests="1" failures="1" skipped="0" time="0.013" errors="0">
+<testcase name="debug login error handling" classname="debug-login.spec.ts" time="0.013">
+<failure message="debug-login.spec.ts:3:1 debug login error handling" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › debug-login.spec.ts:3:1 › debug login error handling ───────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-work-orders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Chrome" tests="1" failures="1" skipped="0" time="0.008" errors="0">
+<testcase name="debug work order navigation" classname="debug-work-orders.spec.ts" time="0.008">
+<failure message="debug-work-orders.spec.ts:4:1 debug work order navigation" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › debug-work-orders.spec.ts:4:1 › debug work order navigation ────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-workorders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Chrome" tests="1" failures="1" skipped="0" time="0.058" errors="0">
+<testcase name="debug work order data" classname="debug-workorders.spec.ts" time="0.058">
+<failure message="debug-workorders.spec.ts:3:1 debug work order data" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › debug-workorders.spec.ts:3:1 › debug work order data ───────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="main-flows.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Chrome" tests="19" failures="19" skipped="0" time="0.289" errors="0">
+<testcase name="Authentication Flow › user can login and logout" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:30:3 user can login and logout" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:30:3 › Authentication Flow › user can login and logout ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Authentication Flow › shows error for invalid credentials" classname="main-flows.spec.ts" time="0.047">
+<failure message="main-flows.spec.ts:53:3 shows error for invalid credentials" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:53:3 › Authentication Flow › shows error for invalid credentials 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › technician can complete work order flow @smoke" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:77:3 technician can complete work order flow @smoke" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:77:3 › Work Order Management › technician can complete work order flow @smoke 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can create new work order" classname="main-flows.spec.ts" time="0.012">
+<failure message="main-flows.spec.ts:112:3 can create new work order" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:112:3 › Work Order Management › can create new work order ───
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can filter work orders" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:135:3 can filter work orders" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:135:3 › Work Order Management › can filter work orders ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can search work orders" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:153:3 can search work orders" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:153:3 › Work Order Management › can search work orders ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can view equipment list" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:175:3 can view equipment list" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:175:3 › Equipment Management › can view equipment list ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can create new equipment" classname="main-flows.spec.ts" time="0.018">
+<failure message="main-flows.spec.ts:184:3 can create new equipment" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:184:3 › Equipment Management › can create new equipment ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can scan QR code for equipment" classname="main-flows.spec.ts" time="0.011">
+<failure message="main-flows.spec.ts:204:3 can scan QR code for equipment" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:204:3 › Equipment Management › can scan QR code for equipment 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › displays dashboard metrics" classname="main-flows.spec.ts" time="0.045">
+<failure message="main-flows.spec.ts:230:3 displays dashboard metrics" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:230:3 › Dashboard and Analytics › displays dashboard metrics 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › can filter dashboard by date range" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:242:3 can filter dashboard by date range" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:242:3 › Dashboard and Analytics › can filter dashboard by date range 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › mobile navigation works correctly" classname="main-flows.spec.ts" time="0.024">
+<failure message="main-flows.spec.ts:261:3 mobile navigation works correctly" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:261:3 › Mobile Responsiveness › mobile navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › work order cards are touch-friendly" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:280:3 work order cards are touch-friendly" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:280:3 › Mobile Responsiveness › work order cards are touch-friendly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › shows offline indicator when network is unavailable" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:298:3 shows offline indicator when network is unavailable" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:298:3 › Offline Functionality › shows offline indicator when network is unavailable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › can complete work orders offline" classname="main-flows.spec.ts" time="0.031">
+<failure message="main-flows.spec.ts:312:3 can complete work orders offline" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:312:3 › Offline Functionality › can complete work orders offline 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › supports keyboard navigation" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:341:3 supports keyboard navigation" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:341:3 › Accessibility › supports keyboard navigation ────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › has proper focus indicators" classname="main-flows.spec.ts" time="0.011">
+<failure message="main-flows.spec.ts:355:3 has proper focus indicators" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:355:3 › Accessibility › has proper focus indicators ─────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › dashboard loads within acceptable time" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:369:3 dashboard loads within acceptable time" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:369:3 › Performance › dashboard loads within acceptable time 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › work order list handles large datasets" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:383:3 work order list handles large datasets" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › main-flows.spec.ts:383:3 › Performance › work order list handles large datasets 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1181/chrome-linux/chrome
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="basic.e2e.test.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Safari" tests="4" failures="3" skipped="1" time="0.03" errors="0">
+<testcase name="Basic E2E Tests › should load the homepage" classname="basic.e2e.test.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Basic E2E Tests › should verify test framework" classname="basic.e2e.test.ts" time="0.007">
+<failure message="basic.e2e.test.ts:16:3 should verify test framework" type="FAILURE">
+<![CDATA[  [Mobile Safari] › basic.e2e.test.ts:16:3 › Basic E2E Tests › should verify test framework ────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on mobile viewport" classname="basic.e2e.test.ts" time="0.007">
+<failure message="basic.e2e.test.ts:24:3 should work on mobile viewport" type="FAILURE">
+<![CDATA[  [Mobile Safari] › basic.e2e.test.ts:24:3 › Responsive Design Tests › should work on mobile viewport 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Responsive Design Tests › should work on desktop viewport" classname="basic.e2e.test.ts" time="0.016">
+<failure message="basic.e2e.test.ts:33:3 should work on desktop viewport" type="FAILURE">
+<![CDATA[  [Mobile Safari] › basic.e2e.test.ts:33:3 › Responsive Design Tests › should work on desktop viewport 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-login.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Safari" tests="1" failures="1" skipped="0" time="0.032" errors="0">
+<testcase name="debug login error handling" classname="debug-login.spec.ts" time="0.032">
+<failure message="debug-login.spec.ts:3:1 debug login error handling" type="FAILURE">
+<![CDATA[  [Mobile Safari] › debug-login.spec.ts:3:1 › debug login error handling ───────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-work-orders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Safari" tests="1" failures="1" skipped="0" time="0.01" errors="0">
+<testcase name="debug work order navigation" classname="debug-work-orders.spec.ts" time="0.01">
+<failure message="debug-work-orders.spec.ts:4:1 debug work order navigation" type="FAILURE">
+<![CDATA[  [Mobile Safari] › debug-work-orders.spec.ts:4:1 › debug work order navigation ────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="debug-workorders.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Safari" tests="1" failures="1" skipped="0" time="0.008" errors="0">
+<testcase name="debug work order data" classname="debug-workorders.spec.ts" time="0.008">
+<failure message="debug-workorders.spec.ts:3:1 debug work order data" type="FAILURE">
+<![CDATA[  [Mobile Safari] › debug-workorders.spec.ts:3:1 › debug work order data ───────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="main-flows.spec.ts" timestamp="2025-07-20T01:22:46.294Z" hostname="Mobile Safari" tests="19" failures="19" skipped="0" time="0.152" errors="0">
+<testcase name="Authentication Flow › user can login and logout" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:30:3 user can login and logout" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:30:3 › Authentication Flow › user can login and logout ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Authentication Flow › shows error for invalid credentials" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:53:3 shows error for invalid credentials" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:53:3 › Authentication Flow › shows error for invalid credentials 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › technician can complete work order flow @smoke" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:77:3 technician can complete work order flow @smoke" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:77:3 › Work Order Management › technician can complete work order flow @smoke 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can create new work order" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:112:3 can create new work order" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:112:3 › Work Order Management › can create new work order ───
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can filter work orders" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:135:3 can filter work orders" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:135:3 › Work Order Management › can filter work orders ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Work Order Management › can search work orders" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:153:3 can search work orders" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:153:3 › Work Order Management › can search work orders ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can view equipment list" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:175:3 can view equipment list" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:175:3 › Equipment Management › can view equipment list ──────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can create new equipment" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:184:3 can create new equipment" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:184:3 › Equipment Management › can create new equipment ─────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Equipment Management › can scan QR code for equipment" classname="main-flows.spec.ts" time="0.007">
+<failure message="main-flows.spec.ts:204:3 can scan QR code for equipment" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:204:3 › Equipment Management › can scan QR code for equipment 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › displays dashboard metrics" classname="main-flows.spec.ts" time="0.015">
+<failure message="main-flows.spec.ts:230:3 displays dashboard metrics" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:230:3 › Dashboard and Analytics › displays dashboard metrics 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard and Analytics › can filter dashboard by date range" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:242:3 can filter dashboard by date range" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:242:3 › Dashboard and Analytics › can filter dashboard by date range 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › mobile navigation works correctly" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:261:3 mobile navigation works correctly" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:261:3 › Mobile Responsiveness › mobile navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Mobile Responsiveness › work order cards are touch-friendly" classname="main-flows.spec.ts" time="0.008">
+<failure message="main-flows.spec.ts:280:3 work order cards are touch-friendly" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:280:3 › Mobile Responsiveness › work order cards are touch-friendly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › shows offline indicator when network is unavailable" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:298:3 shows offline indicator when network is unavailable" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:298:3 › Offline Functionality › shows offline indicator when network is unavailable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Offline Functionality › can complete work orders offline" classname="main-flows.spec.ts" time="0.006">
+<failure message="main-flows.spec.ts:312:3 can complete work orders offline" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:312:3 › Offline Functionality › can complete work orders offline 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › supports keyboard navigation" classname="main-flows.spec.ts" time="0.01">
+<failure message="main-flows.spec.ts:341:3 supports keyboard navigation" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:341:3 › Accessibility › supports keyboard navigation ────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Accessibility › has proper focus indicators" classname="main-flows.spec.ts" time="0.009">
+<failure message="main-flows.spec.ts:355:3 has proper focus indicators" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:355:3 › Accessibility › has proper focus indicators ─────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › dashboard loads within acceptable time" classname="main-flows.spec.ts" time="0.005">
+<failure message="main-flows.spec.ts:369:3 dashboard loads within acceptable time" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:369:3 › Performance › dashboard loads within acceptable time 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Performance › work order list handles large datasets" classname="main-flows.spec.ts" time="0.005">
+<failure message="main-flows.spec.ts:383:3 work order list handles large datasets" type="FAILURE">
+<![CDATA[  [Mobile Safari] › main-flows.spec.ts:383:3 › Performance › work order list handles large datasets 
+
+    Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/webkit-2191/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

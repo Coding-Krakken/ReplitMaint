@@ -1,0 +1,67 @@
+✅ Task
+
+Continue improving and enhancing this project by completing milestones in ROADMAP.md and adhering to the long-term vision defined in Documentation/Blueprint/.
+
+⸻
+
+🔧 Development & Contribution Protocol
+
+📌 Core Guidelines
+	•	Follow the Roadmap: Implement tasks in the order defined in ROADMAP.md, updating progress as milestones are completed.
+	•	Align with the Blueprint: Every change must align with the direction and scope outlined in Documentation/Blueprint/.
+	•	Do not modify this directory unless you are explicitly redefining the vision or updating traceability.
+	•	Respect Project Independence: Ensure the project remains completely independent of Replit-specific services, limitations, or integrations.
+	•	Preserve Tech Stack Integrity: Do not introduce new dependencies or diverge from the current architecture, tech stack, or structure.
+
+⸻
+
+🧪 Error Checking & Testing (Before & After Every Milestone)
+	1.	Run Validation Suite:
+	•	Type checking: tsc --noEmit
+	•	Test suite: Run all available tests
+	•	Linting: eslint . (or project-specific config)
+	•	Manual runtime check: Observe console output for warnings/errors
+	2.	Fix & Refactor:
+	•	Eliminate all TypeScript, runtime, and lint errors
+	•	Refactor unstable or ambiguous logic
+	•	Ensure test coverage is up-to-date for all changes
+	3.	Commit & Track:
+	•	Use clear, actionable commit messages
+	•	If behavior is altered, log the change in:
+→ Documentation/Edits/ with the date, file(s) affected, and reason
+→ Documentation/Blueprint/5-Traceability/TraceabilityMatrix.md to reflect the impact on original requirements
+	•	Update README.md and ROADMAP.md with new progress and relevant details
+
+⸻
+
+📘 Documentation Maintenance Requirements
+	•	All change records must go in Documentation/Edits/
+→ Create a new .md file per change or update an existing one if contextually related
+	•	Do not modify files in Documentation/Blueprint/ unless you are:
+	•	Redefining the project vision
+	•	Updating the TraceabilityMatrix.md to map edits to original goals
+	•	Always keep ROADMAP.md and README.md current
+→ After each major task or feature, reflect new progress, updated commands, and important configuration notes
+
+⸻
+
+▶️ Replit-Specific Configuration
+	•	Run Button Behavior:
+Ensure the Replit “Run” button is always configured to run:
+
+npm run dev
+
+
+
+⸻
+
+🧩 Code & System Integrity Expectations
+	•	Write modular, clean, testable code
+	•	Avoid technical debt—refactor when necessary
+	•	Conduct full milestone reviews to catch regressions or deviations from architecture
+
+⸻
+
+🎯 Goal
+
+Continuously evolve this project toward its final vision with a commitment to clarity, traceability, independence, and long-term maintainability.

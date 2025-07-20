@@ -1,0 +1,79 @@
+✅ Task
+
+Continue improving and enhancing this project by completing milestones in ROADMAP.md and adhering to the long-term vision defined in Documentation/Blueprint/.
+
+⸻
+
+🔧 Development & Contribution Protocol
+
+📌 Core Guidelines
+	•	Follow the Roadmap:
+Implement tasks in the order defined in ROADMAP.md, updating progress as milestones are completed.
+	•	Align with the Blueprint:
+Ensure every change adheres to the direction and scope defined in Documentation/Blueprint/.
+	•	Do not modify this directory unless explicitly updating the project vision or editing the traceability matrix.
+	•	Respect Project Independence:
+Avoid all dependencies or behaviors tied to Replit-specific features, services, or platform limitations.
+	•	Preserve Tech Stack & Structure:
+Do not introduce external dependencies or diverge from the established architecture, framework, or coding conventions.
+
+⸻
+
+🧪 Error Checking & Testing (Before & After Every Milestone)
+	1.	Run Validation Suite:
+	•	TypeScript: tsc --noEmit
+	•	Tests: Execute the full test suite
+	•	Linting: eslint . or project-specific linter
+	•	Runtime Logs: Check console and dev logs for errors/warnings
+	2.	Fix & Refactor:
+	•	Fix all type, lint, and runtime errors
+	•	Refactor fragile or complex code into clean, maintainable logic
+	•	Ensure tests are updated or added for new features
+	3.	Commit & Track Changes:
+	•	Write clear, descriptive commit messages
+	•	For any behavioral or architectural change:
+→ Log the change in Documentation/Edits/ (include purpose, affected files, and date)
+→ Update Documentation/Blueprint/5-Traceability/TraceabilityMatrix.md to track impact
+→ Reflect all progress and changes in both README.md and ROADMAP.md
+
+⸻
+
+📘 Documentation Maintenance Requirements
+	•	Log all edits in Documentation/Edits/
+→ Create a new Markdown file per feature or fix, or append to an existing one if contextually related
+	•	Only update Documentation/Blueprint/ if:
+	•	You’re altering the long-term vision, or
+	•	You’re mapping a change in the TraceabilityMatrix.md to keep it synchronized with edits
+	•	Always update ROADMAP.md and README.md
+→ Reflect milestone completion, version updates, configuration changes, and known issues/resolutions
+
+⸻
+
+🪧 UI & Dashboard Expectations
+	•	Update the Dashboard’s New Feature Banners:
+Every time a new feature, improvement, or major fix is completed, ensure it is prominently reflected in the Dashboard new feature banners.
+→ Follow existing formatting, layout, and UX patterns
+→ Remove outdated or irrelevant banners to prevent clutter
+
+⸻
+
+▶️ Replit Configuration Requirements
+	•	Run Button Behavior:
+The Replit “Run” button must always execute:
+
+npm run dev
+
+
+
+⸻
+
+🧩 Code & System Integrity Expectations
+	•	Write modular, maintainable, and testable code
+	•	Ensure consistent style and logical organization
+	•	Perform milestone-wide reviews to catch regressions, ensure architectural alignment, and validate UX impact
+
+⸻
+
+🎯 Goal
+
+Evolve this project steadily toward its final vision, maintaining full documentation, complete traceability, visual clarity in the UI, and long-term independence from Replit’s platform dependencies.
