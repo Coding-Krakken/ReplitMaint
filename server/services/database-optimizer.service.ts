@@ -85,6 +85,16 @@ export class DatabaseOptimizerService {
       errors: [] as string[]
     };
 
+    // Skip optimization if no database connection (development mode)
+    if (!db) {
+      console.log('⚠️  Skipping database optimization - using in-memory storage');
+      return {
+        success: true,
+        applied: 0,
+        errors: ['Skipped - in-memory storage mode']
+      };
+    }
+
     console.log('🚀 Starting database optimization...');
 
     for (const query of this.indexCreationQueries) {

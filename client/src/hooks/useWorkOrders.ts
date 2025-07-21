@@ -21,10 +21,9 @@ export function useWorkOrders(filters?: WorkOrderFilters) {
   return useQuery<WorkOrder[]>({
     queryKey: ['/api/work-orders', filters],
     queryFn: async () => {
-      const token = localStorage.getItem('token');
       const response = await fetch(url, {
         headers: {
-          'Authorization': `Bearer ${token}`,
+          'Authorization': 'Bearer demo-token',
           'x-user-id': localStorage.getItem('userId') || 'default-user-id',
           'x-warehouse-id': localStorage.getItem('warehouseId') || 'default-warehouse-id',
         },
@@ -39,10 +38,9 @@ export function useWorkOrder(id: string) {
   return useQuery<WorkOrder>({
     queryKey: ['/api/work-orders', id],
     queryFn: async () => {
-      const token = localStorage.getItem('token');
       const response = await fetch(`/api/work-orders/${id}`, {
         headers: {
-          'Authorization': `Bearer ${token}`,
+          'Authorization': 'Bearer demo-token',
           'x-user-id': localStorage.getItem('userId') || 'default-user-id',
           'x-warehouse-id': localStorage.getItem('warehouseId') || 'default-warehouse-id',
         },
@@ -58,10 +56,9 @@ export function useAssignedWorkOrders(userId: string) {
   return useQuery<WorkOrder[]>({
     queryKey: ['/api/work-orders/assigned', userId],
     queryFn: async () => {
-      const token = localStorage.getItem('token');
       const response = await fetch(`/api/work-orders/assigned/${userId}`, {
         headers: {
-          'Authorization': `Bearer ${token}`,
+          'Authorization': 'Bearer demo-token',
           'x-user-id': localStorage.getItem('userId') || 'default-user-id',
           'x-warehouse-id': localStorage.getItem('warehouseId') || 'default-warehouse-id',
         },
@@ -78,12 +75,12 @@ export function useCreateWorkOrder() {
   
   return useMutation({
     mutationFn: async (workOrder: InsertWorkOrder) => {
-      const token = localStorage.getItem('token');
+      // Always use mock token for dev API
       const response = await fetch('/api/work-orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
+          'Authorization': 'Bearer demo-token',
           'x-user-id': localStorage.getItem('userId') || 'default-user-id',
           'x-warehouse-id': localStorage.getItem('warehouseId') || 'default-warehouse-id',
         },
@@ -103,12 +100,11 @@ export function useUpdateWorkOrder() {
   
   return useMutation({
     mutationFn: async ({ id, data }: { id: string; data: Partial<InsertWorkOrder> }) => {
-      const token = localStorage.getItem('token');
       const response = await fetch(`/api/work-orders/${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
+          'Authorization': 'Bearer demo-token',
           'x-user-id': localStorage.getItem('userId') || 'default-user-id',
           'x-warehouse-id': localStorage.getItem('warehouseId') || 'default-warehouse-id',
         },
@@ -128,10 +124,9 @@ export function useWorkOrderChecklist(workOrderId: string) {
   return useQuery({
     queryKey: ['/api/work-orders', workOrderId, 'checklist'],
     queryFn: async () => {
-      const token = localStorage.getItem('token');
       const response = await fetch(`/api/work-orders/${workOrderId}/checklist`, {
         headers: {
-          'Authorization': `Bearer ${token}`,
+          'Authorization': 'Bearer demo-token',
           'x-user-id': localStorage.getItem('userId') || 'default-user-id',
           'x-warehouse-id': localStorage.getItem('warehouseId') || 'default-warehouse-id',
         },

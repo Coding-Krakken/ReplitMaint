@@ -31,7 +31,33 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     if (path.startsWith('/work-orders')) {
-      return res.status(200).json([]);
+        if (req.method === 'POST') {
+            // Simple mock authentication: require 'Authorization: Bearer demo-token' header
+            const authHeader = req.headers['authorization'] || req.headers['Authorization'];
+            if (!authHeader || authHeader !== 'Bearer demo-token') {
+                return res.status(401).json({ message: 'Invalid or expired token' });
+            }
+            // Parse request body
+            const { warehouse, estimatedHours, notes, attachments, scheduledAt } = req.body || {};
+            // Basic validation
+            if (!warehouse || !estimatedHours || !scheduledAt) {
+                return res.status(400).json({ message: 'Missing required fields' });
+            }
+            // Create mock work order
+            const workOrder = {
+                id: 'wo-' + Date.now(),
+                warehouse,
+                estimatedHours,
+                notes: notes || '',
+                attachments: attachments || [],
+                scheduledAt,
+                status: 'new',
+                createdAt: new Date().toISOString(),
+            };
+            return res.status(201).json(workOrder);
+        }
+        // Default GET handler (empty array)
+        return res.status(200).json([]);
     }
 
     if (path.startsWith('/equipment')) {

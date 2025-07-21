@@ -157,38 +157,52 @@ export async function registerRoutes(app: Express): Promise<Server> {
   const authenticateRequest = async (req: any, res: any, next: any) => {
     try {
       const token = req.headers.authorization?.replace('Bearer ', '');
-      
+      // In development mode, allow anonymous access when no token is provided
       if (!token) {
+        if (process.env.NODE_ENV === 'development') {
+          // Create a default anonymous user for development
+          req.user = {
+            id: 'dev-user-id',
+            warehouseId: 'default-warehouse-id',
+            role: 'admin',
+            sessionId: 'dev-session-id'
+          };
+          return next();
+        }
         return res.status(401).json({ message: "Authentication required" });
       }
-      
+      // Accept mock token in development mode
+      if (process.env.NODE_ENV === 'development' && token === 'demo-token') {
+        req.user = {
+          id: 'dev-user-id',
+          warehouseId: 'default-warehouse-id',
+          role: 'admin',
+          sessionId: 'dev-session-id'
+        };
+        return next();
+      }
       // In test environment, accept mock-token
       if (process.env.NODE_ENV === 'test' && token === 'mock-token') {
         req.user = { id: '00000000-0000-0000-0000-000000000001', warehouseId: '00000000-0000-0000-0000-000000000001' };
         return next();
       }
-
       // Use advanced JWT validation
       const { AuthService } = await import('./services/auth');
-      
       const tokenValidation = await new AuthService().validateToken(token);
       if (!tokenValidation.valid) {
         return res.status(401).json({ message: "Invalid or expired token" });
       }
-
       // Check if session is still valid
       const sessionValid = await new AuthService().validateSession(tokenValidation.payload.sessionId);
       if (!sessionValid) {
         return res.status(401).json({ message: "Session expired" });
       }
-
       req.user = {
         id: tokenValidation.payload.userId,
         warehouseId: tokenValidation.payload.warehouseId,
         role: tokenValidation.payload.role,
         sessionId: tokenValidation.payload.sessionId
       };
-      
       next();
     } catch (error) {
       console.error('Authentication error:', error);
